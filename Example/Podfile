@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ffi-ios_Example' do
+  pod 'ffi-ios', :path => '../'
+
+  target 'ffi-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
