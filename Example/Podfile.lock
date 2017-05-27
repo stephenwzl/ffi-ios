@@ -1,0 +1,16 @@
+PODS:
+  - ffi-ios (0.1.0)
+
+DEPENDENCIES:
+  - ffi-ios (from `../`)
+
+EXTERNAL SOURCES:
+  ffi-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ffi-ios: 44fe81a2d5c1354931abbe08e34e5caf27887303
+
+PODFILE CHECKSUM: 2b3b7cf40dcea5105d9305ba41add33aaf69930f
+
+COCOAPODS: 1.2.1

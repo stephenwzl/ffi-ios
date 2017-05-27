@@ -1,0 +1,6 @@
+framework module ffi_ios {
+  umbrella header "ffi-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ffi-ios",
+  "version": "0.1.0",
+  "summary": "A short description of ffi-ios.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/stephenw/ffi-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stephenw": "zhilong.wang@ele.me"
+  },
+  "source": {
+    "git": "https://github.com/stephenw/ffi-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ffi-ios/**/*",
+  "compiler_flags": "-w",
+  "public_header_files": [
+    "ffi-ios/darwin_common/include/*.h",
+    "ffi-ios/darwin_ios/include/*.h"
+  ]
+}
