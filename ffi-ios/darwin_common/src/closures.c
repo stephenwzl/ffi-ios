@@ -444,7 +444,7 @@ static int dlmunmap(void *, size_t);
 #define mmap dlmmap
 #define munmap dlmunmap
 
-#include "dlmalloc.c"
+#include "../../debug/dlmalloc.c"
 
 #undef mmap
 #undef munmap
